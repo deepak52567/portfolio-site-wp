@@ -1,4 +1,4 @@
-<section class="profile-sec">
+<section class="profile-sec" id="about">
     <div class="head">
         <h1>ABOUT ME</h1>
     </div>
