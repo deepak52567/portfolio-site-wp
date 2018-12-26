@@ -20,16 +20,15 @@
         <span></span>
         <span></span>
     </div>
-        <div class="nav-con">
+    <div class="outer-nav">
+	<div class="nav-con">
             <ul>
                 <li><a href="/">HOME</a></li>
-				<li><a href="#work">WORK</a></li>
-				<li><a href="#about">ABOUT</a></li>
+		<li><a href="#work">WORK</a></li>
+		<li><a href="#about">ABOUT</a></li>
                 <li><a href="#contact">CONTACT</a></li>
             </ul>
         </div>
-    </div>
-    <div class="outer-nav">
         <div class="social-con">
             <a href="">
                 <i class="fab fa-facebook-f"></i>
@@ -44,4 +43,5 @@
                 <i class="fab fa-facebook-f"></i>
             </a>
         </div>
+    </div>
 </header>
