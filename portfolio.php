@@ -1,5 +1,5 @@
 <?php /* Template Name: portfolio */ ?>
-<section class="potfolio">
+<section class="potfolio" id="work">
 	<div class="head">
 		<h1>WORK</h1>
 	</div>

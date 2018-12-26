@@ -41,10 +41,10 @@
         </div>
         <div class="nav-con">
             <ul>
-                <li>HOME</li>
-                <li>WORK</li>
-                <li>ABOUT</li>
-                <li>CONTACT</li>
+                <li><a href="/">HOME</a></li>
+				<li><a href="#work">WORK</a></li>
+				<li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </div>
     </div>

@@ -8,7 +8,7 @@
         </div>
         <div class="pro-detail">
             <p>
-	        <?php the_author_meta( 'description');?>
+	            <?php get_the_author_meta(''); ?>
             </p>
             <h1 class="sub-head">
                 My ToolBox
