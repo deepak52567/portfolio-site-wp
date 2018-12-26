@@ -15,14 +15,19 @@
 
 <body <?php body_class(); ?>>
 <header>
-    <div class="logo-con">
-        <span>Comapny</span>
-        <span>Logo</span>
-    </div>
     <div class="resbars">
         <span></span>
         <span></span>
         <span></span>
+    </div>
+        <div class="nav-con">
+            <ul>
+                <li><a href="/">HOME</a></li>
+				<li><a href="#work">WORK</a></li>
+				<li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
     </div>
     <div class="outer-nav">
         <div class="social-con">
@@ -39,13 +44,4 @@
                 <i class="fab fa-facebook-f"></i>
             </a>
         </div>
-        <div class="nav-con">
-            <ul>
-                <li><a href="/">HOME</a></li>
-				<li><a href="#work">WORK</a></li>
-				<li><a href="#about">ABOUT</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-            </ul>
-        </div>
-    </div>
 </header>

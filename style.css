@@ -112,9 +112,12 @@ header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end; }
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1; }
     header .outer-nav .nav-con ul {
       margin: 0;
       color: #262626;
@@ -128,9 +131,10 @@ header {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center;
-      list-style-type: none; }
+      list-style-type: none;
+      padding: 0; }
       header .outer-nav .nav-con ul li {
-        margin: 0 1rem;
+        margin-right: 1rem;
         padding: 0.5rem;
         cursor: pointer; }
         header .outer-nav .nav-con ul li a {
