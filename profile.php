@@ -4,11 +4,11 @@
     </div>
     <div class="pro-con">
         <div class="img-con">
-            <img src="http://wordpress-101337-693765.cloudwaysapps.com/wp-content/uploads/2018/12/potrait_sample.jpg" alt="">
+            <img src="http://localhost:5656/wp-content/uploads/2018/12/IMG-4236.jpg" alt="">
         </div>
         <div class="pro-detail">
             <p>
-	        <?php the_author_meta( 'description');?>
+	        <?php the_author_meta( 'description', 2);?>
             </p>
             <h1 class="sub-head">
                 My ToolBox

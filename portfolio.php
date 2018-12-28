@@ -9,7 +9,9 @@
 				<h2><?php the_title(); ?></h2>
 				<?php the_post_thumbnail('full'); ?>
 				<div class="author-con">
-					<span>By </span><?php the_author_posts_link(); ?><span class="time"> on <?php the_time('F jS, Y'); ?></span>
+					<span>By </span>
+					<span class="author-name"><?php echo get_the_author(); ?></span>
+					<span class="time"> on <?php the_time('F jS, Y'); ?></span>
 				</div>
 				<?php the_content('Read More'); ?>
 				<a href="<?php the_permalink(); ?>" class="action" type="_blank">
