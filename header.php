@@ -4,7 +4,12 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><?php bloginfo('title'); ?></title>
+    <?php $main_top_page = get_field('cover_image'); ?>
+	<div class="tagline-con">
+    <title>
+        <?php echo $main_top_page['first_name']; ?>
+        <?php echo $main_top_page['last_name']; ?> | PORTFOLIO
+    </title>
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	<?php
