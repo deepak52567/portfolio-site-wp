@@ -2,19 +2,20 @@
     <div class="head">
         <h1>ABOUT ME</h1>
     </div>
+    <?php $about_me_page = get_field('about_me'); ?>
     <div class="pro-con">
         <div class="img-con">
-            <img src="http://wordpress-101337-693765.cloudwaysapps.com/wp-content/uploads/2018/12/IMG-4236.jpg" alt="">
+            <img src="<?php echo $about_me_page['profile_image']; ?>" alt="">
         </div>
         <div class="pro-detail">
             <p>
-	        <?php the_author_meta( 'description', 2);?>
+                <?php echo $about_me_page['about']; ?>
             </p>
             <h1 class="sub-head">
-                My ToolBox
+                My Skills
             </h1>
             <p>
-                Sketch<span>-</span>Photoshop<span>-</span>Illustrator<span>-</span>AfterEffects<span>-</span>Cinema4D
+                <?php echo $about_me_page['skills']; ?>
             </p>
         </div>
     </div>

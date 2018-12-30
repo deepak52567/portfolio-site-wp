@@ -1,11 +1,12 @@
 <section class="top">
+    <?php $main_top_page = get_field('cover_image'); ?>
 	<div class="tagline-con">
 		<h1>
-			<span><?php the_author_meta( 'user_firstname', 2); ?></span>
-			.<?php the_author_meta( 'user_lastname', 2); ?>
+			<span><?php echo $main_top_page['first_name']; ?></span>
+			.<?php echo $main_top_page['last_name']; ?>
 		</h1>
 		<span class="desc">
-            <?php bloginfo( 'description' ) ?>
+            <?php echo $main_top_page['about_portfolio']; ?>
         </span>
 		<a href="#about" class="link">
 			<i class="fas fa-info"></i>
@@ -13,7 +14,7 @@
 		</a>
 	</div>
 	<div class="art-con">
-		<div class="img-con" style="background-image: url(http://wordpress-101337-693765.cloudwaysapps.com/wp-content/uploads/2018/12/IMG-7012-1-min.jpg)">
+		<div class="img-con" style="background-image: url(<?php echo $main_top_page['main_profile']; ?>)">
 		</div>
 		<div class="texture-1"></div>
 		<div class="texture-2"></div>

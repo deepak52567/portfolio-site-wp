@@ -38,16 +38,18 @@
                 <li><a href="/">HOME</a></li>
         		<li><a href="#work">WORK</a></li>
                 <li><a href="#about">ABOUT</a></li>
+                <li><a href="#about">CONTACT</a></li>
             </ul>
         </div>
+       <?php $social_links = get_field('social_links'); ?>
         <div class="social-con">
-            <a href="https://www.facebook.com/himani.bajaj.5" target="_blank">
+            <a href="<?php echo $social_links['facebook']; ?>" target="_blank">
                 <i class="fab fa-facebook-f"></i>
             </a>
-            <a href="https://www.instagram.com/bajaj_himani/" target="_blank">
+            <a href="<?php echo $social_links['instagram']; ?>" target="_blank">
                 <i class="fab fa-instagram"></i>
             </a>
-            <a href="">
+            <a href="<?php echo $social_links['skype']; ?>" target="_blank">
                 <i class="fab fa-skype"></i>
             </a>
         </div>
