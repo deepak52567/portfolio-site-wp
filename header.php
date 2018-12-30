@@ -30,17 +30,14 @@
             </ul>
         </div>
         <div class="social-con">
-            <a href="">
+            <a href="https://www.facebook.com/himani.bajaj.5" target="_blank">
                 <i class="fab fa-facebook-f"></i>
             </a>
-            <a href="">
-                <i class="fab fa-facebook-f"></i>
+            <a href="https://www.instagram.com/bajaj_himani/" target="_blank">
+                <i class="fab fa-instagram"></i>
             </a>
             <a href="">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="">
-                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-skype"></i>
             </a>
         </div>
     </div>
