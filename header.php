@@ -24,9 +24,8 @@
 	<div class="nav-con">
             <ul>
                 <li><a href="/">HOME</a></li>
-		<li><a href="#work">WORK</a></li>
-		<li><a href="#about">ABOUT</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+        		<li><a href="#work">WORK</a></li>
+                <li><a href="#about">ABOUT</a></li>
             </ul>
         </div>
         <div class="social-con">

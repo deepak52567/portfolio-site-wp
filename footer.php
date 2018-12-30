@@ -13,7 +13,7 @@
         </a>
     </div>
     <div class="details-sec">
-        2018 | www.portfolio.com
+        2018 | Himani Bajaj
     </div>
 </footer>
 </body>
