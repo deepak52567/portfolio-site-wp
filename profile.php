@@ -4,7 +4,7 @@
     </div>
     <div class="pro-con">
         <div class="img-con">
-            <img src="http://localhost:5656/wp-content/uploads/2018/12/IMG-4236.jpg" alt="">
+            <img src="http://wordpress-101337-693765.cloudwaysapps.com/wp-content/uploads/2018/12/IMG-4236.jpg" alt="">
         </div>
         <div class="pro-detail">
             <p>

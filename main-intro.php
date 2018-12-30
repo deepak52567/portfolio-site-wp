@@ -13,7 +13,7 @@
 		</a>
 	</div>
 	<div class="art-con">
-		<div class="img-con" style="background-image: url(http://localhost:5656/wp-content/uploads/2018/12/IMG-7012-1-min.jpg)">
+		<div class="img-con" style="background-image: url(http://wordpress-101337-693765.cloudwaysapps.com/wp-content/uploads/2018/12/IMG-7012-1-min.jpg)">
 		</div>
 		<div class="texture-1"></div>
 		<div class="texture-2"></div>
