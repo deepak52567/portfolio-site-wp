@@ -29,5 +29,25 @@
             });
         });
     });
+    document.querySelector('div.resbars').addEventListener('click', function (e) {
+    	e.preventDefault();
+
+        var element = document.getElementsByClassName('outer-nav')[0];
+
+        if (element.classList.contains("active")) { 
+            element.classList.toggle("active");
+        } else {
+        // For IE9
+            var classes = element.className.split(" ");
+            var i = classes.indexOf("active");
+
+        if (i >= 0) 
+            classes.splice(i, 1);
+        else 
+            classes.push("active");
+            element.className = classes.join(" "); 
+        }
+
+    });
 </script>
 </html>
