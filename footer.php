@@ -10,7 +10,7 @@
             <i class="fab fa-instagram"></i>
         </a>
         <a href="<?php echo $social_links['skype']; ?>" target="_blank">
-            <i class="fab fa-skype"></i>
+        <i class="fab fa-linkedin"></i> 
         </a>
     </div>
     <?php $main_top_page = get_field('cover_image'); ?>
