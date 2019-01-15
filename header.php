@@ -41,7 +41,7 @@
                 <li><a href="/">HOME</a></li>
         		<li><a href="#work">WORK</a></li>
                 <li><a href="#about">ABOUT</a></li>
-                <li><a href="#about">CONTACT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </div>
        <?php $social_links = get_field('social_links'); ?>
