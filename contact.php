@@ -15,7 +15,7 @@
                 Phone
             </h1>
             <p>
-                +91-<?php echo $contact['phone']; ?>
+                +1(919)<?php echo $contact['phone']; ?>
             </p>
             <h1 class="sub-head">
                 Social
